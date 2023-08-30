@@ -4,7 +4,8 @@
   "info": {
     "singularName": "price",
     "pluralName": "prices",
-    "displayName": "price"
+    "displayName": "price",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -13,6 +14,16 @@
   "attributes": {
     "price": {
       "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }
